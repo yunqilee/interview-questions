@@ -1,6 +1,18 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
-  return <h3>Hello</h3>;
+  return (
+    <div>
+      <h1>React interview questions</h1>
+      <p>
+        <Link href="/search-filter">Search Filter</Link>
+      </p>
+      <p>
+        <Link href="/debounce">Debounce</Link>
+      </p>
+      <p>
+        <Link href="/countdown-timer">Countdown Timer</Link>
+      </p>
+    </div>
+  );
 }

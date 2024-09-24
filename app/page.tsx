@@ -6,13 +6,13 @@ export default function Home() {
       <h1 style={styles.title}>React Interview Questions</h1>
       <div style={styles.links}>
         <p style={styles.linkItem}>
-          <a href="/search-filter">Search Filter</a>
+          <a href="/pages/search-filter">Search Filter</a>
         </p>
         <p style={styles.linkItem}>
-          <a href="/debounce">Debounce</a>
+          <a href="/pages/debounce">Debounce</a>
         </p>
         <p style={styles.linkItem}>
-          <a href="/countdown-timer">Countdown Timer</a>
+          <a href="/pages/countdown-timer">Countdown Timer</a>
         </p>
       </div>
     </div>

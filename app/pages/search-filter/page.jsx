@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import "./SearchFilter.css";
 
 const SearchFilterComponent = () => {
   const [items, setItems] = useState([
@@ -23,18 +24,28 @@ const SearchFilterComponent = () => {
   );
 
   return (
-    <div>
+    <div className="container">
       <input
         type="text"
+        className="search-input"
         placeholder="Search..."
         value={searchTerm}
         onChange={handleSearchChange}
       />
-      <ul>
+      <ul className="item-list">
         {filteredItems.map((item, index) => (
-          <li key={index}>{item}</li>
+          <li key={index} className="item">
+            {item}
+          </li>
         ))}
       </ul>
+      <a
+        href="https://github.com/yunqilee/interview-questions/blob/main/app/pages/search-filter/page.jsx"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="github-button">View Code on GitHub</button>
+      </a>
     </div>
   );
 };

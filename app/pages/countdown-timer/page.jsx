@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import CountdownTimer from "../components/CountdownTimer";
+import CountdownTimer from "../../components/CountdownTimer";
 
 const CountdownTimerPage = () => {
   const [inputTime, setInputTime] = useState("");

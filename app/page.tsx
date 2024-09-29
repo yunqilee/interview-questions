@@ -14,6 +14,12 @@ export default function Home() {
         <p style={styles.linkItem}>
           <a href="/pages/countdown-timer">Countdown Timer</a>
         </p>
+        <p style={styles.linkItem}>
+          <a href="/pages/parse-link">Dynamic Link Parser</a>
+        </p>
+        <p style={styles.linkItem}>
+          <a href="/pages/loadash-get">Implement loadash.get</a>
+        </p>
       </div>
     </div>
   );

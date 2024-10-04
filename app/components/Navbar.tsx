@@ -6,11 +6,11 @@ const Navbar: React.FC = () => {
     <nav style={styles.navbar}>
       <Link href="/">Home</Link>
       <a
-        href="https://github.com/yunqilee/interview-questions"
+        href="https://www.linkedin.com/sharing/share-offsite/?url=https://interview-questions-zeta.vercel.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        GitHub Repo
+        Share on LinkedIn
       </a>
       <a
         href="https://github.com/sponsors/yunqilee"

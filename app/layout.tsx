@@ -35,6 +35,16 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-adsense-account" content="ca-pub-6815683792550156" />
+        <meta property="og:title" content="React Interview" />
+        <meta
+          property="og:description"
+          content="Frequently asked React questions from real-world interviews."
+        />
+        <meta
+          property="og:url"
+          content="https://interview-questions-zeta.vercel.app/"
+        />
+        <meta property="og:type" content="website" />
       </head>
       <body className={inter.className}>
         <Navbar />
